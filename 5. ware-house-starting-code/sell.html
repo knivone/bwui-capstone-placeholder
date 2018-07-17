@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WareHouse</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/sell.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700|Open+Sans:400,700" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header>
+      <div class="ceiling">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing. 40% Code: 40OFF</h3>
+      </div>
+      <div class="image-container">
+        <a href="index.html"><img src="resources/img/warehouse-logo.svg"></a>
+      </div>
+      <div class="search-bar">
+        <input type="text" name="search" placeholder="Search for items">
+        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+      </div>
+      <div class="account">
+        <a href="#" class="profile"><img src="resources/img/profile.png" alt="Sign In / Create Account"></a>
+        <a href="cart.html" class="cart"><img src="resources/img/cart.png" alt="Cart"></a>
+      </div>
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">All Products</a>
+      <a href="deals.html" class="sale">Today's Deals</a>
+      <a href="inspiration.html">Inspiration</a>
+      <a href="about.html">About Us</a>
+      <a href="sell.html">Sell</a>
+    </nav>
+
+    <!-- Sell Product Form -->
+
+    <div id="main" class="sell">
+      <div class="sell">
+      <h2>Sell</h2>
+      </div>
+      <form>
+        <div id="name" class="field">
+          <label for="name">Product Name</label>
+          <input type="text" name="name" placeholder="Name of product">
+        </div>
+        <div id="price" class="field">
+          <label for="price">Price</label>
+          <input type="number" name="price">
+        </div>
+        <div id="quantity" class="field">
+          <label for="quantity">Quantity</label>
+          <select name="quantity">
+            <option value="100">100</option>
+            <option value="200">100-200</option>
+            <option value="300">200-300</option>
+            <option value="400">300-400</option>
+            <option value="500">>500</option>
+          </select>
+        </div>
+        <div id="description" class="field">
+          <label for="description">Description</label>
+          <textarea type="text" name="description" placeholder="Description of product"></textarea>
+        </div>
+        <a href="#" class="button" id="submit">Submit</a>
+      </form>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+      <div class="links">
+        <h4>Get to know us</h4>
+        <a href="about.html">About us</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="#">Investor relations</a>
+        <a href="#">Link</a>
+      </div>
+      <div class="links">
+        <h4>Make money with us</h4>
+        <a href="sell.html">Sell on WareHouse</a>
+        <a href="#">Become a vendor</a>
+        <a href="#">Fundraiser events</a>
+        <a href="#">Community outreach</a>
+      </div>
+      <div class="links">
+        <h4>Help</h4>
+        <a href="#">Contact us</a>
+        <a href="#">Conditions of use</a>
+        <a href="#">Report a problem</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <img src="resources/img/home.png" class="links" alt="Warehouse Logo" />
+    </footer>
+  </div>
+</body>
+</html>
